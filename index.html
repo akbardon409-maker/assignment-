@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        table, th, td {
+            border: 3px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 20px;
+            padding: 15px;
+            font-family: Arial, sans-serif;
+            
+        }
+        table {
+            width: 100%;
+            height: 100vh;
+            
+        }
+        .heading {
+            font-size: 40px;
+            font-weight: 900;
+            background-color:white;
+
+        }
+        th {
+            font-weight: bold;
+            font-size: 24px;
+
+        }
+        .lunch {
+            font-size: 32px;
+            font-weight: 900;
+            background-color:white ;
+
+        }
+        .hours {
+            font-weight:100;
+            font-size: 24px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <th colspan="6" class="heading">TIME TABLE</th>
+        </tr>
+        <tr>
+            <td rowspan="7">hours</td>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Arts</td>
+            
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>\
+            <td>Maths</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <td colspan="5" class="lunch">LUNCH</td>
+        </tr>
+        <tr>
+            <td>science</td>
+            <td>maths</td>
+            <td>science</td>
+            <td>maths</td>
+            <td rowspan="2">project</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+        </tr>        
+    </table>
+    
+    
+</body>
+</html>
